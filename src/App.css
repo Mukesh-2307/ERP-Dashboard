@@ -1,3 +1,9 @@
 #root {
   max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.bottom-cell {
+  height: calc(100vh - 220px - 48px);
 }
