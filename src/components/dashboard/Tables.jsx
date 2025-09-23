@@ -61,7 +61,7 @@ const Tables = () => {
                     </div>
                 </div>
                 <button
-                    className='py-2 px-4 bg-blue-300 text-blue-700 rounded-lg font-semibold hover:bg-blue-600 hover:text-white'
+                    className='py-2 px-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 hover:text-white cursor-pointer'
                     onClick={handlePopulate}
                 >
                     Populate
