@@ -6,9 +6,14 @@ import { BsThreeDots } from "react-icons/bs";
 // import DeliveryCSV from './OFD.csv';
 // import PickupCSV from './Pickup.csv'
 
-const options = [
+const WMoptions = [
     { value: 1, label: 'Sushil Kumar Jha' },
     { value: 2, label: 'Amit Kumar' },
+];
+
+const Tableoptions = [
+    { value: '/OFD.csv', label: 'Delivery' },
+    { value: '/Pickup.csv', label: 'Pickup' },
 ];
 
 
@@ -16,23 +21,29 @@ const Tables = () => {
 
     const [data, setData] = useState([]);
     const [manager, setManager] = useState(null);
+    const [dataOpt, setDataOpt] = useState(null);
     const [rows, setRows] = useState([]);
 
     useEffect(() => {
-        Papa.parse("/Pickup.csv", {
-            download: true,
-            header: true,
-            skipEmptyLines: true,
-            dynamicTyping: true,
-            complete: (result) => {
-                setData(result.data);
-            },
-            error: (err) => {
-                console.error("CSV parse error", err);
-                setData([]);
-            },
-        });
-    }, [])
+        if (dataOpt?.value) {
+            console.log(dataOpt.value);
+            // Papa.parse("/Pickup.csv", {
+            Papa.parse(dataOpt.value, {
+                download: true,
+                header: true,
+                skipEmptyLines: true,
+                dynamicTyping: true,
+                complete: (result) => {
+                    setData(result.data);
+                },
+                error: (err) => {
+                    console.error("CSV parse error", err);
+                    setData([]);
+                },
+            })
+        }
+    }, [dataOpt])
+    // }, [])
 
     // {
     //     manager ? data.forEach((row) => {
@@ -47,28 +58,41 @@ const Tables = () => {
     };
 
     return (
-        <div className='bg-white rounded-lg p-4 flex flex-col gap-4 bottom-cell'>
+        <div className='rounded-lg p-4 flex flex-col gap-4 bottom-cell shadow card-light'>
             <div className="input-fields flex justify-between items-end">
-                <div className='flex flex-col gap-0.5'>
-                    <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Assign Agent</label>
-                    <div className='w-[220px]'>
-                        <Select
-                            defaultValue={manager}
-                            onChange={setManager}
-                            options={options}
-                            name="WM-Select"
-                        />
+                <div className='flex gap-8'>
+                    <div>
+                        <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Assign Agent</label>
+                        <div className='w-[220px]'>
+                            <Select
+                                defaultValue={manager}
+                                onChange={setManager}
+                                options={WMoptions}
+                                name="WM-Select"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Data Options</label>
+                        <div className='w-[220px]'>
+                            <Select
+                                defaultValue={dataOpt}
+                                onChange={setDataOpt}
+                                options={Tableoptions}
+                                name="WM-Select"
+                            />
+                        </div>
                     </div>
                 </div>
                 <button
-                    className='py-2 px-4 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 hover:text-white cursor-pointer'
+                    className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer'
                     onClick={handlePopulate}
                 >
                     Populate
                 </button>
             </div>
-            <div>
-                <table className="w-full table-auto">
+            <div className='overflow-y-scroll custom-scrollbar'>
+                <table className="w-full table-fixed">
                     <TableHead />
                     <tbody>
                         {rows?.map((row, index) => (
@@ -92,14 +116,14 @@ const Tables = () => {
 
 const TableHead = () => {
     return (
-        <thead>
-            <tr className="text-sm font-normal border-y-2">
-                <th className="text-start p-1.5">Tracking Id</th>
-                <th className="text-start p-1.5">CPD</th>
-                <th className="text-start p-1.5">Priority</th>
-                <th className="text-start p-1.5">Address</th>
-                <th className="text-start p-1.5">Pincode</th>
-                <th className="text-start p-1.5">Status</th>
+        <thead className='t-head sticky top-0'>
+            <tr>
+                <th className="text-start p-1.5 w-32">Tracking Id</th>
+                <th className="text-start p-1.5 w-20">CPD</th>
+                <th className="text-start p-1.5 w-24">Priority</th>
+                <th className="text-start p-1.5 w-64">Address</th>
+                <th className="text-start p-1.5 w-24">Pincode</th>
+                <th className="text-start p-1.5 w-32">Status</th>
                 <th className='w-8'></th>
             </tr>
         </thead>
@@ -108,13 +132,13 @@ const TableHead = () => {
 
 const TableRow = ({ TID, CPD, priority, address, pin, item, index }) => {
     return (
-        <tr className={index % 2 ? "bg-gray-200" : ""}>
-            <td className='p-1.5'>{TID}</td>
-            <td className='p-1.5'>{CPD}</td>
-            <td className='p-1.5'>{priority}</td>
-            <td className='p-1.5'>{address}</td>
-            <td className='p-1.5'>{pin}</td>
-            <td className='p-1.5'>{item}</td>
+        <tr className={index % 2 ? "odd-item" : ""}>
+            <td className='p-1.5 w-32'>{TID}</td>
+            <td className='p-1.5 w-20'>{CPD}</td>
+            <td className='p-1.5 w-24'>{priority}</td>
+            <td className='p-1.5 w-64'>{address}</td>
+            <td className='p-1.5 w-24'>{pin}</td>
+            <td className='p-1.5 w-32'>{item}</td>
             <td className='w-8'>
                 <BsThreeDots />
             </td>

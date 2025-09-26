@@ -7,3 +7,53 @@
 .bottom-cell {
   height: calc(100vh - 220px - 48px);
 }
+
+.card-dark,
+.t-head {
+  background-color: var(--color-dark-green);
+  color: var(--color-light);
+}
+
+.card-light {
+  background-color: var(--color-light-green);
+  color: var(--color-dark-green);
+}
+
+.odd-item{
+  background-color: var(--color-green);
+  color: var(--color-light)
+}
+
+/* Hide scrollbars but keep scrolling enabled */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
+}
+
+/* Themed scrollbars (apply on any scrollable container) */
+.custom-scrollbar {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: var(--color-dark-green) transparent; /* Firefox */
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px; /* Chrome, Edge, Safari */
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--color-dark-green);
+  border-radius: 8px;
+  border: 2px solid transparent; /* creates padding around thumb */
+  background-clip: content-box;
+}
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  background-color: var(--color-green);
+}
