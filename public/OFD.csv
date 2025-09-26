@@ -1,4 +1,4 @@
-Tracking ID,Age,Attempts,Priorityswap_vert,CPD,Address,Pincode,WM Name,WM_ID,Item Type
+Tracking_ID,Age,Attempts,Priorityswap_vert,CPD,Address,Pincode,WM Name,WM_ID,Item_Type
 FMPR0782319208,0,0,P1,45925.99931,"Near S.K. Jee Kiarana Store, P.O.- B.V. College, Rukanpura, Patna",800014,Sushil Kumar Jha,1,lunch_box
 FMPR0781532695,1,1,P3,45924.99931,"Aarzoo, Ground floor, Navneet Colony, Vednagar, Rukanpura, Patna",800014,Sushil Kumar Jha,1,shirt
 MYER1044224594,0,0,P3,45925.69399,"Afrad niwas , Navneet Colony , Ved Nagar , Rukanpura, Patna",800025,Sushil Kumar Jha,1,Footwear
@@ -6,141 +6,141 @@ FMPR0781982097,0,0,P3,45925.99931,"C/2,3rd Floor,ShivAnant Aptt.Navnit Colony,Ti
 MYER1044219871,0,0,P3,45925.65851,", Nishi Nikunj, Navneet Colony, near Ved Nagar, Rukanpura, Patna",800014,Amit Kumar,2,Accessories
 LKSR9999029763,0,0,P3,45925.49104,"Ak Singh HNO -20 navneet colony near ved Nagar Rukanpura Baily road patna navneet colony , , PATNA",800014,Amit Kumar,2,Others
 FMPR0782120647,0,0,P3,45925.99931,"3rd floor, Rukanpura, Bailey Road, Patna",800014,Amit Kumar,2,shopsy_collapsible_wardrobe
-FMPC5212870187,23-09-2025,P4,398,"102,Makkah Tower, IndrapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5214439265,24-09-2025,P4,262,"Vatsalya apartment flat no 402,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219474713,24-09-2025,P4,254,"Sumitra sadan,Nelkanth coloney no 01 ashiyana nagarPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219510617,24-09-2025,P4,166,"House no 377/A ,Rajabazar samanpura Indrapuri road no 1,Indrapuri colonyPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3332064226,23-09-2025,P4,0,"A/35 noori market near mirza galib college raja bazar 800014,Near mirza galib college raja bazarPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3335357700,24-09-2025,P4,0,"H no -808,opp-Prakash Kunj,indirapuri,samanpura,raja bazar,patna,Indirapuri,house no-808,PATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218559648,24-09-2025,P4,479,"Mansoor alam building,Samanpura raja bazar opposite shershah colonyPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5227515853,22-09-2025,P3,676,"Flat no.302 imam awas,Ashiana - Digha Road, IndrapuriPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5210356623,22-09-2025,P3,318,"Asmat Manzil,Aashiana more road no 4 near by Razia mansionPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5220393377,25-09-2025,P4,184,"A-6/512 Gali No.6,Amar Colony East Gokalpur Landmark : Near Shiv Mandir District : Shahdara State : East DelhiNEW DELHI",110094,UNDELIVERED,Sushil Kumar Jha,1,
-FMPP3337826639,24-09-2025,P4,0,"Flat No. 101, Razia Mansion,Indrapuri , SamanpuraPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5214454145,22-09-2025,P3,178,"indrapuri road road samanpura raja bazar,IndrapuriPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPP3338905630,24-09-2025,P1,0,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5214422376,23-09-2025,P4,270,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218292338,26-09-2025,P4,357,"FLAT NO - 202-B, SHREE JAGDISH APARTMENTINDIRAPURI COLONY, SAMANPURA,,ASHIANA NAGARPATNA",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5209838126,25-09-2025,P4,270,"Hasan Enclave, 2nd floor flat no-201,Samanpura,Raja Bazar, IndirapuriPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5212881527,24-09-2025,P4,144,"House no-202. Vrindavan apartment, near Patliputra Vastralaye,Ram Nagari Mor, Aashiana digha roadPATNA",800025,DELIVERED,Sushil Kumar Jha,1,
-VELC8615024062,17-09-2025,P2,599,"B 25 indira puri colonyRamnagri Patna,PATNA",800014,UNKNOWN,Sushil Kumar Jha,1,
-FMPC5211181298,22-09-2025,P3,640,"House no 64,Samanpura Gali, Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3337763373,23-09-2025,P1,0,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5208830053,21-09-2025,P2,347,"No,Raja Bazar, IndrapuriPatna Division",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPP3337962391,23-09-2025,P1,0,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3347259590,23-09-2025,P4,0,"Nilkanth Co-operative colony, Indirapuri,Road no. 1, Raja Bazar, PatnaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5213969224,24-09-2025,P4,224,"Kaif Ahmad Flat no 104 Block B Faiz palace,Samanpura Raja bazarPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5216981592,23-09-2025,P2,188,"In front madeena tower,Samanpura madarsa gali roadPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5217164297,22-09-2025,P3,139,"Courier Point,Samali, Monoshatala Landmark : Near Nikhil Bangya Kalyan Samity District : South 24 Parganas State : West BengalKOLKATA",700104,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5212664949,24-09-2025,P4,203,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218852921,23-09-2025,P4,801,"behind naiyar alim complex,Samanpura near belal masjid Raja Bazar, IndirapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5210958341,21-09-2025,P2,347,"No,Raja Bazar, IndrapuriPatna Division",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5217761465,24-09-2025,P4,470,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5222819470,25-09-2025,P4,236,"Neha Kirana store,Samanpura, Raja Bazar,Patna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219236973,23-09-2025,P4,226,"Opposite belal Masjid,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3346187266,22-09-2025,P3,0,"B-24, Bakhtiyarpur Niwas,Indirapuri Patna 14Patna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3342131574,24-09-2025,P4,0,"Indirapuri colony, near Makkah Tower, Infront of Firoz Palace, samanpura, Raja bazar, Patna,IndrapuriPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5228647924,22-09-2025,P3,290,"Near hope apartment indrapuri colony ashiana digha road,Road no.1PATNA",800025,DELIVERED,Sushil Kumar Jha,1,
-MYEC1065191182,24-09-2025,P4,498,"At:-Arif menson B- block d2 beside nijaamuddin masjid indrapuri colony road no.2 ,Samanpura rajabajarPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5217118199,24-09-2025,P4,184,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPP3341707209,25-09-2025,P4,0,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPP3337726431,25-09-2025,P1,0,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218301414,24-09-2025,P4,379,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-VENC0003190285,24-09-2025,P4,1499,"House No. 377/A, Indirapuri, Road No. 1, Samanpura, Near Paras HMRI Hospital, Raja Bazaar,PATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219157736,24-09-2025,P4,457,"Mansoor alam building,Samanpura raja bazar opposite shershah colonyPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5213593686,20-09-2025,P2,242,"indrapuri road road samanpura raja bazar,IndrapuriPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPP3330317804,23-09-2025,P4,0,"ABDUL KARIM ANSARI, NEAR BELAL MASZID, SAMANPURA, RAZA BAZAR, BAILY ROAD, PO- B V COLLEGE.,BELAL MASZIDPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5213174281,25-09-2025,P4,156,"Imam Niwas, opp.Nilkanth Hospital, near....B.plaza,Indarpuri Ashiyana digha roadPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3341601094,25-09-2025,P4,0,"A/69, Indrapuri colony,Samanpura road, Near noori market,Raja Bazar, IndrapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5205416160,21-09-2025,P2,259,"F/N 204 Maitri Apartment, Ashiana Digha Road, Patna, Bihar,Ashiana - Digha Road, IndrapuriPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPP3338851305,25-09-2025,P4,0,"H no -808,opp-Prakash Kunj,indirapuri,samanpura,raja bazar,patna,Indirapuri,house no-808,PATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-MYEP1082301578,23-09-2025,P4,0,"Flat no 101, Danyal mansion, neelkanth colony, in front of neelkanth hospital, behind gold gym ,AshiananagarPATNA",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPP3332358413,26-09-2025,P4,0,"Beside of Hasan Enclave,Raja Bazar, IndrapuriPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPP3344402503,25-09-2025,P4,0,"201,AIRPORT COLONY T3A ROOM NO 201 PATNA -800014Patna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218738720,24-09-2025,P4,116,"behind Naiyer alim complex,Naiyar Alim Complex, IndirapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-SDLC1056930147,22-09-2025,P3,121,"A-35,Indrapuricolony samanpuraPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218342036,24-09-2025,P4,182,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPP3342496691,25-09-2025,P4,0,"Waheed apartment flat number 402,Samanpura raja bazar Bilal masjid ke paas homePatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5217995186,23-09-2025,P4,294,"behind Naiyer alim complex,Naiyar Alim Complex, IndirapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5214428050,23-09-2025,P4,270,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5222929255,24-09-2025,P4,172,"Sunsat warehousing Pvt. Ltd., Hadbast No. 23, Village Sanpka,Tehsil Farukhnagar, District - Gurgaon, Haryana-122503,Farukhnagar",122503,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5218350457,24-09-2025,P4,412,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPP3342163039,24-09-2025,P4,0,"A/2 Vyas nagar Ashiana Digha Road,Near by Patliputra VastralayPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5210099023,23-09-2025,P4,1214,"House of - Md yusuf (DSP),d22,,Samanpura,Raja Bazar, IndirapuriPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5209045755,22-09-2025,P3,462,"A65,Maula Baksh Enclave, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPP3342288131,25-09-2025,P4,0,"A/39-saghari palace,IndrapuriPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-NAPC0018052375,17-09-2025,P2,500,"Ashiana Digha Rd ,NEARBY RAJ RETINA EYE HOSPITALPATNA",800023,RECEIVED,Sushil Kumar Jha,1,
-FMPC5217958848,24-09-2025,P4,537,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPC5224883404,24-09-2025,P4,294,"201 B ,B plaza ,opposite Neelkanth Hospital,samanpura,,Raja Bazar, IndrapuriPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5204000480,22-09-2025,P3,124,"Raja bazar,Samanpura madarsa roadPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5221051563,24-09-2025,P4,1346,"Irshad Ahmad, 410 A,Behind Razia Mansion, Road no-4, Indrapuri colony, SamanpuraPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPP3339446429,23-09-2025,P4,0,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5217327739,24-09-2025,P4,262,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPC5214080551,24-09-2025,P4,282,"Vatsalya apartment flat no 402,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218590635,24-09-2025,P4,1355,"Handsome mens parlour,Ashiana Digha roadPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-SDLC1056704884,20-09-2025,P2,185,"Flat no 201, Royal Regency, Macchligali, Samanpura, Rajabazar, Patna, 800014,PATNA",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5214064620,23-09-2025,P4,0,"204,sky tower apartment,Road no-4 indrapuri samanpura patnapatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218353433,24-09-2025,P4,661,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPC5205971646,21-09-2025,P2,505,"05,Raja, Baja, Samantha mindinagar, Bilal MazidPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5220638607,22-09-2025,P3,219,"Flat no: 101, Faiz palace, ( Block - A),Machhli Gali,Samanpura ,Raja BazarPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3337975615,24-09-2025,P1,0,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3334683586,23-09-2025,P4,0,"B plaza Apartment samanpura opposite of Neelkanth Hospital flat no 103-B,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3331078873,22-09-2025,P4,0,"5951,partap mkt. and 48 swadeshi market,sadar bazar , sadar bazarNEW DELHI",110060,RECEIVED,Sushil Kumar Jha,1,
-FMPC5217241007,27-09-2025,P4,168,"Lakme salon ramnagri more Ashiana near vasundra apartment sheesha gali,Ashiana - Digha Road, ASHIYANAPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218343743,23-09-2025,P4,294,"Naiyar alam compalex. 2nd flore 203,Near igms boundry .saman pura .Raja bajar ,patnaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5215711274,23-09-2025,P4,302,"indrapuri road road samanpura raja bazar,IndrapuriPatna",800014,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5214416178,22-09-2025,P3,808,"Sy no 18/2,18/3,18/4 19/1,19/2,19/3,20/1,20/2,20/3,21/2,22/2,23/2,23/3,23/4 Taverekere venkatapura,hosakote taluk,nadagudi hobli,bangalore 562122Bangalore",562122,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5215509332,23-09-2025,P4,189,"Flat no.302 imam awas,Ashiana - Digha Road, IndrapuriPatna Division",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219195548,24-09-2025,P4,178,"Engineer's colony,IndrapuriPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3335602769,23-09-2025,P4,0,"B plaza Apartment samanpura opposite of Neelkanth Hospital flat no 103-B,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5216717054,25-09-2025,P4,308,"FIRST FLOOR F/S L/S, PLOT NO-A-10/C, ,Nawada Extension , Fitness one jymNEW DELHI",110059,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5214301810,23-09-2025,P4,309,"380 A/1 Indrapuri colony behind surya samanpura enclave apartment, raja bazar,patna-14,Indrapuri colonyPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5211447225,21-09-2025,P2,783,"Near shubhashish homes, ,JAIPUR",302020,UNDELIVERED,Sushil Kumar Jha,1,
-FMPC5217886724,24-09-2025,P4,281,"123/4, NEAR NARESH WATER TANK, CH. MAAN SINGH FARM,RANHHOLLA ROAD, MUNDKA , NEAR NARESH WATER TANKNEW DELHI",110041,UNDELIVERED,Sushil Kumar Jha,1,
-MYEC1065193160,25-09-2025,P4,294,"MD TAUQEER ANSARI, Arif mension, indrapuri colony, road number 2,,Near Mirza galib teacher training centrePATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5224627148,24-09-2025,P4,348,"A/37,Mirza Ghalib Teachers Training College, IndirapuriPatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5213631161,24-09-2025,P4,477,"Knowledge park,Jawaharlal Nehru Marg, Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-SRSC2171287101,23-09-2025,P4,260,"Flat no 101 first floor RAZIA MANSION,INDIRAPURI RAJABAZAR NEAR SKY TOWER APARTMENTPATNA",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3341560346,22-09-2025,P3,0,"Masood enclave flat no 401,Near mirza galib teacher training collegePatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3337870008,24-09-2025,P4,0,"Khasra No 1272 Gali No 15 Bhatta Road Swaroop Nagar,Landmark : Lal Building Govt. School District : Delhi State : DelhiNEW DELHI",110042,RECEIVED,Sushil Kumar Jha,1,
-FMPC5211313955,25-09-2025,P4,345,"D/22,IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPP3338193777,26-09-2025,P4,0,"Samanpura,daniyal mension b plaza raja bazaar,patna,bihar,india,B(babu lal) plaza 202 blockA, jagdish apartment,patna,bihar 800014,Samanpura ,daniyal mension b plaza raja bazaar,patna ,bihar,india,B(babu lal) plaza 202 block A,jagdish apartment,patna bihar- 800014Patna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5226157219,24-09-2025,P4,560,"Hamz,S Gilani Plaza sitaram kirana stor,Indrapuri colony rod no 4Patna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219608471,24-09-2025,P4,207,"C/O Munna soni,Vrindaban gardens ,flat no.103,Ramnagri more,ashiana digha,patnaPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5215307220,24-09-2025,P4,363,"Mandal house,Raja Bazar, IndrapuriPatna Division",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218342636,24-09-2025,P4,558,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPC5231126466,24-09-2025,P4,3067,"Flat no. 611, Vrindavan Garden Apt.,Ashiyana Digha Road, Ramnagri morePatna",800025,DELIVERED,Sushil Kumar Jha,1,
-FMPC5219087614,23-09-2025,P4,414,"Firoz palace flat no 102,Indirapuri near belal masjidPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218302537,24-09-2025,P4,997,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",800023,DELIVERED,Sushil Kumar Jha,1,
-FMPP3338467789,23-09-2025,P4,0,"Javed House, Belal Campus,Samanpura, Indrapuri Colony, Raja BazarPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5218408296,25-09-2025,P4,249,"A/10 Ashiana Digha road neelkanth colony 2nd floor,A/10 ashiana Digha road neelkanth colony road 2nd floorPatna",800014,DELIVERED,Sushil Kumar Jha,1,
-FMPC5221568433,45922.99999,P3,239,"House no d 29,IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5213966076,45926.99999,P4,673,"indrapuri road road samanpura raja bazar,IndrapuriPatna",800014,UNA,Amit Kumar,2,
-FMPC5217919553,45924.99999,P4,283,"8,Keyaan Manufacturing and Edifice Pvt Ltd, IndirapuriPatna",800014,UNA,Amit Kumar,2,
-ROPC0017767028,45915.75,P2,1299,"House No Street No Nearby 800014 Patna BR India,.,800014PATNA",800014,UNA,Amit Kumar,2,
-FMPC5208417694,45923.99999,P4,641,"1st floor flat no.A2 KGN Tower Indirapuri colony Samanpura Raja bazar Sheikhpura Patna Bihar,SheikhpuraPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5215030003,45924.99999,P4,268,"H.no103 malti niwas,Khairatali Road Number 2, opposite side of MS furniturePATNA",804453,UNA,Amit Kumar,2,
-CLSC0000362708,45916.47917,P1,892,"Grooming galaxy unisex salon Rupa tower pts more Bailey Road behind Harilal sweets,PATNA",800012,UNA,Amit Kumar,2,
-FMPC5219339131,45925.99999,P4,108,"Shershah colony,Mirza Galib Teacher Training College, IndirapuriPatna",800023,UNA,Amit Kumar,2,
-FMPC5217332144,45925.99999,P4,164,"Minhaz mansuri,Samnpura Mazjid, Raja Bazar, IndirapuriPatna",800014,UNA,Amit Kumar,2,
-FMPC5219293430,45924.99999,P4,356,"Bihar state boys hostel 2nd floor room no 129,IndirapuriPatna",800023,UNA,Amit Kumar,2,
-FMPC5202455645,45921.99999,P2,598,"Road no 0 room no 63,Indirapuri kesari nagarPatna",800014,UNA,Amit Kumar,2,
-FMPC5218675522,45923.99999,P4,644,"Naiyar alam compalex. 2nd flore 203,Near igms boundry .saman pura .Raja bajar ,patnaPatna",800014,UNA,Amit Kumar,2,
-FMPC5214264195,45923.99999,P4,374,"Maqbul Manzil, 728a/1, Samanpura, Raja Bazar, Patna,Raja Bazar, IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5213824742,45924.99999,P4,683,"H. No.:- C/11 , indirapuri colony,East of ramnagari more, RajabazarPatna",800014,UNA,Amit Kumar,2,
-FMPC5215571943,45924.99999,P4,183,"A-37,IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5210844975,45924.99999,P4,217,"64,Samanpura Road, Raja Bazar, IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5211780146,45926.99999,P4,1028,"K G N tower, Flat no: C3,Behind igims boundary, samanpura, RajabazarPatna",800014,UNA,Amit Kumar,2,
-FMPC5212406551,45925.99999,P4,278,"C/O R.N panday Purn kuti indrapuri,Raja Bazar, IndrapuriPATNA",800025,UNA,Amit Kumar,2,
-NAPC0017853944,45924.47917,P4,700,"Vyas Nagar A13 ,NEW BHARAT AMMONIUMPATNA",800025,UNA,Amit Kumar,2,
-FMPC5212825487,45923.99999,P4,463,"Soni menshion,Ashiana - Digha Road, IndrapuriPatna Division",800025,UNA,Amit Kumar,2,
-FMPC5218397447,45925.99999,P4,185,"Behisvsid,Road no 2 new jaganpura india family martPatna",800023,UNA,Amit Kumar,2,
-FMPC5221928349,45925.99999,P4,171,"Madeena tower near Hazrat Bilal masjid,Raja Bazar, IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5216162784,45925.99999,P4,731,"House no d 29,IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-FMPC5218170411,45925.99999,P4,651,"No,Raja Bazar, IndrapuriPatna Division",800014,UNA,Amit Kumar,2,
-MYEC1065037095,45924.25,P4,408,"Indirapuri Colony,IndrapuriPATNA",800014,UNA,Amit Kumar,2,
-FMPC5223718727,45925.99999,P4,166,"Samriddhi,IndrapuriPatna Division",800025,UNA,Amit Kumar,2,
-MYEC1065247172,45928.25,P4,2004,"House no 2, road no 2, near mirza ghalib teacher training college, indrapuri,IndrapuriPATNA",800023,UNA,Amit Kumar,2,
-FMPP3340194073,45924.99999,P4,0,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",800025,UNA,Amit Kumar,2,
-FMPC5218110268,45926.99999,P4,142,"A-1 Noha Apartment, 3rd Floor-302, Near IGIMS Boundry,Indirapuri Colony, SamanpuraPatna",800014,UNA,Amit Kumar,2,
-FMPC5211746796,45924.99999,P4,297,"Hazrat Bilal Masjid,Naiyar Alim Complex, IndirapuriPatna",800023,UNA,Amit Kumar,2,
+FMPC5212870187,45923,P4,398,800014,"102,Makkah Tower, IndrapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214439265,45924,P4,262,800014,"Vatsalya apartment flat no 402,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219474713,45924,P4,254,800025,"Sumitra sadan,Nelkanth coloney no 01 ashiyana nagarPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219510617,45924,P4,166,800014,"House no 377/A ,Rajabazar samanpura Indrapuri road no 1,Indrapuri colonyPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3332064226,45923,P4,0,800014,"A/35 noori market near mirza galib college raja bazar 800014,Near mirza galib college raja bazarPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3335357700,45924,P4,0,800014,"H no -808,opp-Prakash Kunj,indirapuri,samanpura,raja bazar,patna,Indirapuri,house no-808,PATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218559648,45924,P4,479,800014,"Mansoor alam building,Samanpura raja bazar opposite shershah colonyPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5227515853,45922,P3,676,800025,"Flat no.302 imam awas,Ashiana - Digha Road, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5210356623,45922,P3,318,800014,"Asmat Manzil,Aashiana more road no 4 near by Razia mansionPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5220393377,45925,P4,184,110094,"A-6/512 Gali No.6,Amar Colony East Gokalpur Landmark : Near Shiv Mandir District : Shahdara State : East DelhiNEW DELHI",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337826639,45924,P4,0,800014,"Flat No. 101, Razia Mansion,Indrapuri , SamanpuraPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214454145,45922,P3,178,800014,"indrapuri road road samanpura raja bazar,IndrapuriPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3338905630,45924,P1,0,800014,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214422376,45923,P4,270,800014,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218292338,45926,P4,357,800025,"FLAT NO - 202-B, SHREE JAGDISH APARTMENTINDIRAPURI COLONY, SAMANPURA,,ASHIANA NAGARPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5209838126,45925,P4,270,800025,"Hasan Enclave, 2nd floor flat no-201,Samanpura,Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5212881527,45924,P4,144,800025,"House no-202. Vrindavan apartment, near Patliputra Vastralaye,Ram Nagari Mor, Aashiana digha roadPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+VELC8615024062,45917,P2,599,800014,"B 25 indira puri colonyRamnagri Patna,PATNA",UNKNOWN,Sushil Kumar Jha,1,N/A
+FMPC5211181298,45922,P3,640,800014,"House no 64,Samanpura Gali, Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337763373,45923,P1,0,800014,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5208830053,45921,P2,347,800014,"No,Raja Bazar, IndrapuriPatna Division",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337962391,45923,P1,0,800014,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3347259590,45923,P4,0,800014,"Nilkanth Co-operative colony, Indirapuri,Road no. 1, Raja Bazar, PatnaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5213969224,45924,P4,224,800014,"Kaif Ahmad Flat no 104 Block B Faiz palace,Samanpura Raja bazarPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5216981592,45923,P2,188,800014,"In front madeena tower,Samanpura madarsa gali roadPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217164297,45922,P3,139,700104,"Courier Point,Samali, Monoshatala Landmark : Near Nikhil Bangya Kalyan Samity District : South 24 Parganas State : West BengalKOLKATA",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5212664949,45924,P4,203,800014,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218852921,45923,P4,801,800014,"behind naiyar alim complex,Samanpura near belal masjid Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5210958341,45921,P2,347,800014,"No,Raja Bazar, IndrapuriPatna Division",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217761465,45924,P4,470,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5222819470,45925,P4,236,800014,"Neha Kirana store,Samanpura, Raja Bazar,Patna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219236973,45923,P4,226,800014,"Opposite belal Masjid,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3346187266,45922,P3,0,800014,"B-24, Bakhtiyarpur Niwas,Indirapuri Patna 14Patna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3342131574,45924,P4,0,800025,"Indirapuri colony, near Makkah Tower, Infront of Firoz Palace, samanpura, Raja bazar, Patna,IndrapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5228647924,45922,P3,290,800025,"Near hope apartment indrapuri colony ashiana digha road,Road no.1PATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+MYEC1065191182,45924,P4,498,800014,"At:-Arif menson B- block d2 beside nijaamuddin masjid indrapuri colony road no.2 ,Samanpura rajabajarPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217118199,45924,P4,184,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3341707209,45925,P4,0,800025,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337726431,45925,P1,0,800014,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218301414,45924,P4,379,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+VENC0003190285,45924,P4,1499,800014,"House No. 377/A, Indirapuri, Road No. 1, Samanpura, Near Paras HMRI Hospital, Raja Bazaar,PATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219157736,45924,P4,457,800014,"Mansoor alam building,Samanpura raja bazar opposite shershah colonyPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5213593686,45920,P2,242,800014,"indrapuri road road samanpura raja bazar,IndrapuriPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3330317804,45923,P4,0,800014,"ABDUL KARIM ANSARI, NEAR BELAL MASZID, SAMANPURA, RAZA BAZAR, BAILY ROAD, PO- B V COLLEGE.,BELAL MASZIDPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5213174281,45925,P4,156,800014,"Imam Niwas, opp.Nilkanth Hospital, near....B.plaza,Indarpuri Ashiyana digha roadPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3341601094,45925,P4,0,800014,"A/69, Indrapuri colony,Samanpura road, Near noori market,Raja Bazar, IndrapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5205416160,45921,P2,259,800025,"F/N 204 Maitri Apartment, Ashiana Digha Road, Patna, Bihar,Ashiana - Digha Road, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3338851305,45925,P4,0,800014,"H no -808,opp-Prakash Kunj,indirapuri,samanpura,raja bazar,patna,Indirapuri,house no-808,PATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+MYEP1082301578,45923,P4,0,800025,"Flat no 101, Danyal mansion, neelkanth colony, in front of neelkanth hospital, behind gold gym ,AshiananagarPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3332358413,45926,P4,0,800025,"Beside of Hasan Enclave,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3344402503,45925,P4,0,800014,"201,AIRPORT COLONY T3A ROOM NO 201 PATNA -800014Patna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218738720,45924,P4,116,800014,"behind Naiyer alim complex,Naiyar Alim Complex, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+SDLC1056930147,45922,P3,121,800014,"A-35,Indrapuricolony samanpuraPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218342036,45924,P4,182,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3342496691,45925,P4,0,800014,"Waheed apartment flat number 402,Samanpura raja bazar Bilal masjid ke paas homePatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217995186,45923,P4,294,800014,"behind Naiyer alim complex,Naiyar Alim Complex, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214428050,45923,P4,270,800014,"Elisyn saloon, rajabazaar samanpura, aashiyana Digha road Patna, Rarul patna, district patna..,Ashiana - Digha Road, Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5222929255,45924,P4,172,122503,"Sunsat warehousing Pvt. Ltd., Hadbast No. 23, Village Sanpka,Tehsil Farukhnagar, District - Gurgaon, Haryana-122503,Farukhnagar",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218350457,45924,P4,412,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3342163039,45924,P4,0,800025,"A/2 Vyas nagar Ashiana Digha Road,Near by Patliputra VastralayPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5210099023,45923,P4,1214,800014,"House of - Md yusuf (DSP),d22,,Samanpura,Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5209045755,45922,P3,462,800023,"A65,Maula Baksh Enclave, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3342288131,45925,P4,0,800014,"A/39-saghari palace,IndrapuriPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+NAPC0018052375,45917,P2,500,800023,"Ashiana Digha Rd ,NEARBY RAJ RETINA EYE HOSPITALPATNA",RECEIVED,Sushil Kumar Jha,1,N/A
+FMPC5217958848,45924,P4,537,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5224883404,45924,P4,294,800025,"201 B ,B plaza ,opposite Neelkanth Hospital,samanpura,,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5204000480,45922,P3,124,800014,"Raja bazar,Samanpura madarsa roadPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5221051563,45924,P4,1346,800025,"Irshad Ahmad, 410 A,Behind Razia Mansion, Road no-4, Indrapuri colony, SamanpuraPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3339446429,45923,P4,0,800025,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217327739,45924,P4,262,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214080551,45924,P4,282,800014,"Vatsalya apartment flat no 402,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218590635,45924,P4,1355,800014,"Handsome mens parlour,Ashiana Digha roadPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+SDLC1056704884,45920,P2,185,800014,"Flat no 201, Royal Regency, Macchligali, Samanpura, Rajabazar, Patna, 800014,PATNA",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214064620,45923,P4,0,800014,"204,sky tower apartment,Road no-4 indrapuri samanpura patnapatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218353433,45924,P4,661,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5205971646,45921,P2,505,800014,"05,Raja, Baja, Samantha mindinagar, Bilal MazidPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5220638607,45922,P3,219,800014,"Flat no: 101, Faiz palace, ( Block - A),Machhli Gali,Samanpura ,Raja BazarPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337975615,45924,P1,0,800014,"Beside judge sabh,Indrapuri colony road no.1 Raza bazar, In front of Kishori VillaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3334683586,45923,P4,0,800014,"B plaza Apartment samanpura opposite of Neelkanth Hospital flat no 103-B,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3331078873,45922,P4,0,110060,"5951,partap mkt. and 48 swadeshi market,sadar bazar , sadar bazarNEW DELHI",RECEIVED,Sushil Kumar Jha,1,N/A
+FMPC5217241007,45927,P4,168,800025,"Lakme salon ramnagri more Ashiana near vasundra apartment sheesha gali,Ashiana - Digha Road, ASHIYANAPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218343743,45923,P4,294,800014,"Naiyar alam compalex. 2nd flore 203,Near igms boundry .saman pura .Raja bajar ,patnaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5215711274,45923,P4,302,800014,"indrapuri road road samanpura raja bazar,IndrapuriPatna",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214416178,45922,P3,808,562122,"Sy no 18/2,18/3,18/4 19/1,19/2,19/3,20/1,20/2,20/3,21/2,22/2,23/2,23/3,23/4 Taverekere venkatapura,hosakote taluk,nadagudi hobli,bangalore 562122Bangalore",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5215509332,45923,P4,189,800025,"Flat no.302 imam awas,Ashiana - Digha Road, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219195548,45924,P4,178,800014,"Engineer's colony,IndrapuriPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3335602769,45923,P4,0,800014,"B plaza Apartment samanpura opposite of Neelkanth Hospital flat no 103-B,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5216717054,45925,P4,308,110059,"FIRST FLOOR F/S L/S, PLOT NO-A-10/C, ,Nawada Extension , Fitness one jymNEW DELHI",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5214301810,45923,P4,309,800014,"380 A/1 Indrapuri colony behind surya samanpura enclave apartment, raja bazar,patna-14,Indrapuri colonyPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5211447225,45921,P2,783,302020,"Near shubhashish homes, ,JAIPUR",UNDELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5217886724,45924,P4,281,110041,"123/4, NEAR NARESH WATER TANK, CH. MAAN SINGH FARM,RANHHOLLA ROAD, MUNDKA , NEAR NARESH WATER TANKNEW DELHI",UNDELIVERED,Sushil Kumar Jha,1,N/A
+MYEC1065193160,45925,P4,294,800014,"MD TAUQEER ANSARI, Arif mension, indrapuri colony, road number 2,,Near Mirza galib teacher training centrePATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5224627148,45924,P4,348,800025,"A/37,Mirza Ghalib Teachers Training College, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5213631161,45924,P4,477,800014,"Knowledge park,Jawaharlal Nehru Marg, Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+SRSC2171287101,45923,P4,260,800014,"Flat no 101 first floor RAZIA MANSION,INDIRAPURI RAJABAZAR NEAR SKY TOWER APARTMENTPATNA",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3341560346,45922,P3,0,800014,"Masood enclave flat no 401,Near mirza galib teacher training collegePatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3337870008,45924,P4,0,110042,"Khasra No 1272 Gali No 15 Bhatta Road Swaroop Nagar,Landmark : Lal Building Govt. School District : Delhi State : DelhiNEW DELHI",RECEIVED,Sushil Kumar Jha,1,N/A
+FMPC5211313955,45925,P4,345,800014,"D/22,IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3338193777,45926,P4,0,800014,"Samanpura,daniyal mension b plaza raja bazaar,patna,bihar,india,B(babu lal) plaza 202 blockA, jagdish apartment,patna,bihar 800014,Samanpura ,daniyal mension b plaza raja bazaar,patna ,bihar,india,B(babu lal) plaza 202 block A,jagdish apartment,patna bihar- 800014Patna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5226157219,45924,P4,560,800023,"Hamz,S Gilani Plaza sitaram kirana stor,Indrapuri colony rod no 4Patna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219608471,45924,P4,207,800014,"C/O Munna soni,Vrindaban gardens ,flat no.103,Ramnagri more,ashiana digha,patnaPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5215307220,45924,P4,363,800014,"Mandal house,Raja Bazar, IndrapuriPatna Division",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218342636,45924,P4,558,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5231126466,45924,P4,3067,800025,"Flat no. 611, Vrindavan Garden Apt.,Ashiyana Digha Road, Ramnagri morePatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5219087614,45923,P4,414,800014,"Firoz palace flat no 102,Indirapuri near belal masjidPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218302537,45924,P4,997,800023,"Near Neelkanth Hospital, Besides Gold's Gym,Axis Bank Ashiana Digha Patna Branch, Raja Bazar, IndirapuriPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPP3338467789,45923,P4,0,800014,"Javed House, Belal Campus,Samanpura, Indrapuri Colony, Raja BazarPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5218408296,45925,P4,249,800014,"A/10 Ashiana Digha road neelkanth colony 2nd floor,A/10 ashiana Digha road neelkanth colony road 2nd floorPatna",DELIVERED,Sushil Kumar Jha,1,N/A
+FMPC5221568433,45922.99999,P3,239,800014,"House no d 29,IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5213966076,45926.99999,P4,673,800014,"indrapuri road road samanpura raja bazar,IndrapuriPatna",UNA,Amit Kumar,2,N/A
+FMPC5217919553,45924.99999,P4,283,800014,"8,Keyaan Manufacturing and Edifice Pvt Ltd, IndirapuriPatna",UNA,Amit Kumar,2,N/A
+ROPC0017767028,45915.75,P2,1299,800014,"House No Street No Nearby 800014 Patna BR India,.,800014PATNA",UNA,Amit Kumar,2,N/A
+FMPC5208417694,45923.99999,P4,641,800014,"1st floor flat no.A2 KGN Tower Indirapuri colony Samanpura Raja bazar Sheikhpura Patna Bihar,SheikhpuraPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5215030003,45924.99999,P4,268,804453,"H.no103 malti niwas,Khairatali Road Number 2, opposite side of MS furniturePATNA",UNA,Amit Kumar,2,N/A
+CLSC0000362708,45916.47917,P1,892,800012,"Grooming galaxy unisex salon Rupa tower pts more Bailey Road behind Harilal sweets,PATNA",UNA,Amit Kumar,2,N/A
+FMPC5219339131,45925.99999,P4,108,800023,"Shershah colony,Mirza Galib Teacher Training College, IndirapuriPatna",UNA,Amit Kumar,2,N/A
+FMPC5217332144,45925.99999,P4,164,800014,"Minhaz mansuri,Samnpura Mazjid, Raja Bazar, IndirapuriPatna",UNA,Amit Kumar,2,N/A
+FMPC5219293430,45924.99999,P4,356,800023,"Bihar state boys hostel 2nd floor room no 129,IndirapuriPatna",UNA,Amit Kumar,2,N/A
+FMPC5202455645,45921.99999,P2,598,800014,"Road no 0 room no 63,Indirapuri kesari nagarPatna",UNA,Amit Kumar,2,N/A
+FMPC5218675522,45923.99999,P4,644,800014,"Naiyar alam compalex. 2nd flore 203,Near igms boundry .saman pura .Raja bajar ,patnaPatna",UNA,Amit Kumar,2,N/A
+FMPC5214264195,45923.99999,P4,374,800014,"Maqbul Manzil, 728a/1, Samanpura, Raja Bazar, Patna,Raja Bazar, IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5213824742,45924.99999,P4,683,800014,"H. No.:- C/11 , indirapuri colony,East of ramnagari more, RajabazarPatna",UNA,Amit Kumar,2,N/A
+FMPC5215571943,45924.99999,P4,183,800014,"A-37,IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5210844975,45924.99999,P4,217,800014,"64,Samanpura Road, Raja Bazar, IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5211780146,45926.99999,P4,1028,800014,"K G N tower, Flat no: C3,Behind igims boundary, samanpura, RajabazarPatna",UNA,Amit Kumar,2,N/A
+FMPC5212406551,45925.99999,P4,278,800025,"C/O R.N panday Purn kuti indrapuri,Raja Bazar, IndrapuriPATNA",UNA,Amit Kumar,2,N/A
+NAPC0017853944,45924.47917,P4,700,800025,"Vyas Nagar A13 ,NEW BHARAT AMMONIUMPATNA",UNA,Amit Kumar,2,N/A
+FMPC5212825487,45923.99999,P4,463,800025,"Soni menshion,Ashiana - Digha Road, IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5218397447,45925.99999,P4,185,800023,"Behisvsid,Road no 2 new jaganpura india family martPatna",UNA,Amit Kumar,2,N/A
+FMPC5221928349,45925.99999,P4,171,800014,"Madeena tower near Hazrat Bilal masjid,Raja Bazar, IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5216162784,45925.99999,P4,731,800014,"House no d 29,IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+FMPC5218170411,45925.99999,P4,651,800014,"No,Raja Bazar, IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+MYEC1065037095,45924.25,P4,408,800014,"Indirapuri Colony,IndrapuriPATNA",UNA,Amit Kumar,2,N/A
+FMPC5223718727,45925.99999,P4,166,800025,"Samriddhi,IndrapuriPatna Division",UNA,Amit Kumar,2,N/A
+MYEC1065247172,45928.25,P4,2004,800023,"House no 2, road no 2, near mirza ghalib teacher training college, indrapuri,IndrapuriPATNA",UNA,Amit Kumar,2,N/A
+FMPP3340194073,45924.99999,P4,0,800025,"3D vrindavan gardens apartment,Ashiyana Digha Road,IndrapuriPatna",UNA,Amit Kumar,2,N/A
+FMPC5218110268,45926.99999,P4,142,800014,"A-1 Noha Apartment, 3rd Floor-302, Near IGIMS Boundry,Indirapuri Colony, SamanpuraPatna",UNA,Amit Kumar,2,N/A
+FMPC5211746796,45924.99999,P4,297,800023,"Hazrat Bilal Masjid,Naiyar Alim Complex, IndirapuriPatna",UNA,Amit Kumar,2,N/A
