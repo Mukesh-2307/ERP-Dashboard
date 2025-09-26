@@ -1,6 +1,34 @@
 @import "tailwindcss";
 
+:root {
+  --color-dark: #01161e;
+  --color-light: #eff6e0;
+  --color-dark-green: #124559;
+  --color-green: #598392;
+  --color-light-green: #aec3b0;
+
+  --large-font: 104px;
+  --large-line: 52px;
+  --large-weight: 500;
+}
+
 body {
-  background-color: rgb(245,245,245);
-  color: rgb(1,1,1);
+  background-color: rgb(245, 245, 245);
+  color: rgb(1, 1, 1);
+}
+
+.card-text-l {
+  font-size: var(--large-font);
+  line-height: var(--large-line);
+  font-weight: var(--large-weight);
+}
+
+.btn {
+  background: var(--color-dark-green);
+  color: var(--color-light);
+}
+
+.btn:hover {
+  background-color: var(--color-green);
+  color: var(--color-light);
 }
