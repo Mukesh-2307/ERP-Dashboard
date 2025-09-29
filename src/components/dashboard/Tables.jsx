@@ -1,101 +1,33 @@
-import React, { useState, useEffect } from 'react';
-import Select from 'react-select';
-import Papa from "papaparse";
+import React from 'react';
 import { BsThreeDots } from "react-icons/bs";
 
-// import DeliveryCSV from './OFD.csv';
-// import PickupCSV from './Pickup.csv'
 
-const WMoptions = [
-    { value: 1, label: 'Sushil Kumar Jha' },
-    { value: 2, label: 'Amit Kumar' },
-];
-
-const Tableoptions = [
-    { value: '/OFD.csv', label: 'Delivery' },
-    { value: '/Pickup.csv', label: 'Pickup' },
-];
-
-
-const Tables = () => {
-
-    const [data, setData] = useState([]);
-    const [manager, setManager] = useState(null);
-    const [dataOpt, setDataOpt] = useState(null);
-    const [rows, setRows] = useState([]);
-
-    useEffect(() => {
-        if (dataOpt?.value) {
-            console.log(dataOpt.value);
-            // Papa.parse("/Pickup.csv", {
-            Papa.parse(dataOpt.value, {
-                download: true,
-                header: true,
-                skipEmptyLines: true,
-                dynamicTyping: true,
-                complete: (result) => {
-                    setData(result.data);
-                },
-                error: (err) => {
-                    console.error("CSV parse error", err);
-                    setData([]);
-                },
-            })
-        }
-    }, [dataOpt])
-    // }, [])
-
-    // {
-    //     manager ? data.forEach((row) => {
-    //         console.log(row.WM_ID);
-    //     }) : console.log("no manager found");
-    // }
+const Tables = ({ tableTitle, data, manager, isPopulate }) => {
 
     const filteredData = manager ? data.filter((row) => row.WM_ID === manager.value) : data;
 
-    const handlePopulate = () => {
-        setRows(filteredData);
-    };
-
     return (
         <div className='rounded-lg p-4 flex flex-col gap-4 bottom-cell shadow card-light'>
-            <div className="input-fields flex justify-between items-end">
-                <div className='flex gap-8'>
-                    <div>
-                        <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Assign Agent</label>
-                        <div className='w-[220px]'>
-                            <Select
-                                defaultValue={manager}
-                                onChange={setManager}
-                                options={WMoptions}
-                                name="WM-Select"
-                            />
-                        </div>
-                    </div>
-                    <div>
-                        <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Data Options</label>
-                        <div className='w-[220px]'>
-                            <Select
-                                defaultValue={dataOpt}
-                                onChange={setDataOpt}
-                                options={Tableoptions}
-                                name="WM-Select"
-                            />
-                        </div>
-                    </div>
-                </div>
-                <button
-                    className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer'
-                    onClick={handlePopulate}
-                >
-                    Populate
-                </button>
+
+            <div className="header">
+                <h1 className='card-text-m'>
+                    {tableTitle}
+                </h1>
             </div>
-            <div className='overflow-y-scroll custom-scrollbar'>
+            <div className='overflow-y-auto overflow-x-hidden custom-scrollbar'>
                 <table className="w-full table-fixed">
+                    <colgroup>
+                        <col style={{ width: '16%' }} />
+                        <col style={{ width: '12%' }} />
+                        <col style={{ width: '10%' }} />
+                        <col style={{ width: '30%' }} />
+                        <col style={{ width: '10%' }} />
+                        <col style={{ width: '15%' }} />
+                        <col style={{ width: '5%' }} />
+                    </colgroup>
                     <TableHead />
                     <tbody>
-                        {rows?.map((row, index) => (
+                        {isPopulate && filteredData.map((row, index) => (
                             <TableRow
                                 key={`${row.Tracking_ID || index}-${index}`}
                                 TID={row.Tracking_ID}
@@ -118,13 +50,13 @@ const TableHead = () => {
     return (
         <thead className='t-head sticky top-0'>
             <tr>
-                <th className="text-start p-1.5 w-32">Tracking Id</th>
-                <th className="text-start p-1.5 w-20">CPD</th>
-                <th className="text-start p-1.5 w-24">Priority</th>
-                <th className="text-start p-1.5 w-64">Address</th>
-                <th className="text-start p-1.5 w-24">Pincode</th>
-                <th className="text-start p-1.5 w-32">Status</th>
-                <th className='w-8'></th>
+                <th className="text-start p-1.5 whitespace-normal break-words">Tracking Id</th>
+                <th className="text-start p-1.5 whitespace-normal break-words">CPD</th>
+                <th className="text-start p-1.5 whitespace-normal break-words">Priority</th>
+                <th className="text-start p-1.5 whitespace-normal break-words">Address</th>
+                <th className="text-start p-1.5 whitespace-normal break-words">Pincode</th>
+                <th className="text-start p-1.5 whitespace-normal break-words">Status</th>
+                <th></th>
             </tr>
         </thead>
     )
@@ -133,13 +65,13 @@ const TableHead = () => {
 const TableRow = ({ TID, CPD, priority, address, pin, item, index }) => {
     return (
         <tr className={index % 2 ? "odd-item" : ""}>
-            <td className='p-1.5 w-32'>{TID}</td>
-            <td className='p-1.5 w-20'>{CPD}</td>
-            <td className='p-1.5 w-24'>{priority}</td>
-            <td className='p-1.5 w-64'>{address}</td>
-            <td className='p-1.5 w-24'>{pin}</td>
-            <td className='p-1.5 w-32'>{item}</td>
-            <td className='w-8'>
+            <td className='p-1.5 whitespace-normal break-words'>{TID}</td>
+            <td className='p-1.5 whitespace-normal break-words'>{CPD}</td>
+            <td className='p-1.5 whitespace-normal break-words'>{priority}</td>
+            <td className='p-1.5 whitespace-normal break-words'>{address}</td>
+            <td className='p-1.5 whitespace-normal break-words'>{pin}</td>
+            <td className='p-1.5 whitespace-normal break-words'>{item}</td>
+            <td className='p-1.5'>
                 <BsThreeDots />
             </td>
         </tr>
