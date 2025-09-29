@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
-import InputFields from './components/dashboard/InputFields'
+import StatCards from './components/dashboard/StatCards'
 import Tables from './components/dashboard/Tables'
 import Select from 'react-select';
 import Papa from "papaparse";
@@ -55,11 +55,11 @@ function App() {
 
   return (
     <div className='grid gap-4 p-4 grid-rows-[220px_1fr]'>
-      <InputFields />
-      <div className="input-fields flex justify-between items-center h-20">
+      <StatCards pickupData={pickupData} deliveryData={deliveryData} manager={manager} />
+      <div className="input-fields flex justify-between items-center h-20 px-4 card-light rounded-lg">
         <div className='flex gap-8'>
           <div>
-            <label htmlFor='WM-Select' className='text-sm font-semibold p-1.5'>Assign Agent</label>
+            <label htmlFor='WM-Select' className='text-sm font-bold p-1.5'>Assign Agent</label>
             <div className='w-[220px]'>
               <Select
                 defaultValue={manager}
