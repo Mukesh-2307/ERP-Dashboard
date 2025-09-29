@@ -1,11 +1,11 @@
 #root {
-  max-width: 1280px;
+  max-width: calc(100vw-64px);
   margin: 0 auto;
   padding: 0;
 }
 
 .bottom-cell {
-  height: calc(100vh - 220px - 48px);
+  height: calc(100vh - 220px - 64px - 80px);
 }
 
 .card-dark,
@@ -56,4 +56,12 @@
 }
 .custom-scrollbar:hover::-webkit-scrollbar-thumb {
   background-color: var(--color-green);
+}
+
+/* Table layout helpers */
+table.table-fixed th,
+table.table-fixed td {
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
 }

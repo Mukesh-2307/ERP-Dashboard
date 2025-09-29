@@ -10,6 +10,10 @@
   --large-font: 104px;
   --large-line: 52px;
   --large-weight: 500;
+
+  --medium-font: 52px;
+  --medium-line: 52px;
+  --medium-weight: 500;
 }
 
 body {
@@ -21,6 +25,12 @@ body {
   font-size: var(--large-font);
   line-height: var(--large-line);
   font-weight: var(--large-weight);
+}
+
+.card-text-m {
+  font-size: var(--medium-font);
+  line-height: var(--medium-line);
+  font-weight: var(--medium-weight);
 }
 
 .btn {
