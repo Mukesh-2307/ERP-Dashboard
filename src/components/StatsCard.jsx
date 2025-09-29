@@ -1,11 +1,11 @@
 import React from 'react'
 
-const StatsCard = () => {
+const StatsCard = ({ total, totalDeliveries, totalPickups }) => {
     return (
         <>
-            <Card title="Total Entries" value={100} className="card-dark" />
-            <Card title="Total Deliveries" value={44} className="card-light" />
-            <Card title="Total Pickups" value={56} className="card-light" />
+            <Card title="Total Entries" value={total} className="card-dark" />
+            <Card title="Total Deliveries" value={totalDeliveries} className="card-light" />
+            <Card title="Total Pickups" value={totalPickups} className="card-light" />
         </>
     )
 }
