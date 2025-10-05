@@ -65,3 +65,19 @@ table.table-fixed td {
   overflow-wrap: anywhere;
   white-space: normal;
 }
+
+/* Responsive tweaks */
+@media (max-width: 640px) {
+  .bottom-cell {
+    height: calc(100vh - 56px - 56px - 56px);
+  }
+
+  .card-text-m {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  #root {
+    padding: 0 8px;
+  }
+}
