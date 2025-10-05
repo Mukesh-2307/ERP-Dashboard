@@ -19,17 +19,18 @@
 body {
   background-color: rgb(245, 245, 245);
   color: rgb(1, 1, 1);
+  font-size: clamp(14px, 1.6vw, 16px);
 }
 
 .card-text-l {
-  font-size: var(--large-font);
-  line-height: var(--large-line);
+  font-size: clamp(28px, 6vw, 104px);
+  line-height: 1.15;
   font-weight: var(--large-weight);
 }
 
 .card-text-m {
-  font-size: var(--medium-font);
-  line-height: var(--medium-line);
+  font-size: clamp(18px, 3.8vw, 52px);
+  line-height: 1.2;
   font-weight: var(--medium-weight);
 }
 
