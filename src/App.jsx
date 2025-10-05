@@ -54,13 +54,13 @@ function App() {
   };
 
   return (
-    <div className='grid gap-4 p-4 grid-rows-[220px_1fr]'>
+    <div className='grid gap-4 p-2 sm:p-4 grid-rows-[auto_1fr]'>
       <StatCards pickupData={pickupData} deliveryData={deliveryData} manager={manager} />
-      <div className="input-fields flex justify-between items-center h-20 px-4 card-light rounded-lg">
-        <div className='flex gap-8'>
+      <div className="input-fields flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center min-h-20 px-3 sm:px-4 card-light rounded-lg">
+        <div className='flex gap-4 sm:gap-8 w-full sm:w-auto'>
           <div>
-            <label htmlFor='WM-Select' className='text-sm font-bold p-1.5'>Assign Agent</label>
-            <div className='w-[220px]'>
+            <label htmlFor='WM-Select' className='text-xs sm:text-sm font-bold p-1.5'>Assign Agent</label>
+            <div className='w-full sm:w-[220px]'>
               <Select
                 defaultValue={manager}
                 onChange={setManager}
@@ -71,13 +71,13 @@ function App() {
           </div>
         </div>
         <button
-          className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer'
+          className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto'
           onClick={handlePopulate}
         >
           Populate
         </button>
       </div>
-      <div className="grid gap-4 grid-cols-2">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
         <Tables tableTitle="Delivery" data={deliveryData} manager={manager} isPopulate={isPopulate} />
         <Tables tableTitle="Pickup" data={pickupData} manager={manager} isPopulate={isPopulate} />
       </div>
