@@ -2,7 +2,7 @@ import React from 'react';
 import { BsThreeDots } from "react-icons/bs";
 
 
-const Tables = ({ tableTitle, data, manager, isPopulate }) => {
+const Tables = ({ tableTitle, data, manager, isPopulate, type }) => {
 
     const filteredData = manager ? data.filter((row) => row.WM_ID === manager.value) : data;
 
@@ -17,26 +17,29 @@ const Tables = ({ tableTitle, data, manager, isPopulate }) => {
             <div className='overflow-y-auto overflow-x-hidden custom-scrollbar'>
                 <table className="w-full table-fixed">
                     <colgroup>
-                        <col style={{ width: '16%' }} />
-                        <col style={{ width: '12%' }} />
-                        <col style={{ width: '10%' }} />
-                        <col style={{ width: '30%' }} />
-                        <col style={{ width: '10%' }} />
+                        <col style={{ width: '20%' }} />
                         <col style={{ width: '15%' }} />
-                        <col style={{ width: '5%' }} />
+                        <col style={{ width: '10%' }} />
+                        {type === "DELI" && <col style={{ width: '10%' }} />}
+                        <col style={{ width: '30%' }} />
+                        <col style={{ width: '15%' }} />
+                        <col style={{ width: '15%' }} />
                     </colgroup>
-                    <TableHead />
+                    <TableHead type={type} />
                     <tbody>
                         {isPopulate && filteredData.map((row, index) => (
                             <TableRow
                                 key={`${row.Tracking_ID || index}-${index}`}
                                 TID={row.Tracking_ID}
                                 CPD={row.CPD}
-                                priority={row.Priorityswap_vert}
+                                priority={row.Priority}
+                                amount={row.Amount}
                                 address={row.Address}
                                 pin={row.Pincode}
+                                status={row.Status}
                                 item={row.Item_Type}
                                 index={index}
+                                type={type}
                             />
                         ))}
                     </tbody>
@@ -46,34 +49,34 @@ const Tables = ({ tableTitle, data, manager, isPopulate }) => {
     )
 }
 
-const TableHead = () => {
+const TableHead = ({ type }) => {
     return (
         <thead className='t-head sticky top-0'>
             <tr>
                 <th className="text-start p-1.5 whitespace-normal break-words">Tracking Id</th>
                 <th className="text-start p-1.5 whitespace-normal break-words">CPD</th>
                 <th className="text-start p-1.5 whitespace-normal break-words">Priority</th>
+                {type === "DELI" && <th className="text-start p-1.5 whitespace-normal break-words">Amount</th>}
                 <th className="text-start p-1.5 whitespace-normal break-words">Address</th>
                 <th className="text-start p-1.5 whitespace-normal break-words">Pincode</th>
-                <th className="text-start p-1.5 whitespace-normal break-words">Status</th>
-                <th></th>
+                {type === "DELI" && <th className="text-start p-1.5 whitespace-normal break-words">Status</th>}
+                {type === "PICK" && <th className="text-start p-1.5 whitespace-normal break-words">Item Type</th>}
             </tr>
         </thead>
     )
 }
 
-const TableRow = ({ TID, CPD, priority, address, pin, item, index }) => {
+const TableRow = ({ TID, CPD, priority, amount, address, pin, status, item, type, index }) => {
     return (
         <tr className={index % 2 ? "odd-item" : ""}>
             <td className='p-1.5 whitespace-normal break-words'>{TID}</td>
             <td className='p-1.5 whitespace-normal break-words'>{CPD}</td>
             <td className='p-1.5 whitespace-normal break-words'>{priority}</td>
+            {type === "DELI" && <td className='p-1.5 whitespace-normal break-words'>Rs {amount}</td>}
             <td className='p-1.5 whitespace-normal break-words'>{address}</td>
             <td className='p-1.5 whitespace-normal break-words'>{pin}</td>
-            <td className='p-1.5 whitespace-normal break-words'>{item}</td>
-            <td className='p-1.5'>
-                <BsThreeDots />
-            </td>
+            {type === "DELI" && <td className='p-1.5 whitespace-normal break-words'>{status}</td>}
+            {type === "PICK" && <td className='p-1.5 whitespace-normal break-words'>{item}</td>}
         </tr>
     );
 }
