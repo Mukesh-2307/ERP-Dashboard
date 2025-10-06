@@ -4,6 +4,7 @@
   --color-dark: #01161e;
   --color-light: #eff6e0;
   --color-dark-green: #124559;
+  --color-secondary: #124559b4;
   --color-green: #598392;
   --color-light-green: #aec3b0;
 
@@ -20,6 +21,10 @@ body {
   background-color: rgb(245, 245, 245);
   color: rgb(1, 1, 1);
   font-size: clamp(14px, 1.6vw, 16px);
+}
+
+.secondary-text {
+  color: var(--color-secondary);
 }
 
 .card-text-l {
