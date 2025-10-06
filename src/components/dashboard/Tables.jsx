@@ -1,10 +1,12 @@
 import React from 'react';
-import { BsThreeDots } from "react-icons/bs";
 
 
-const Tables = ({ tableTitle, data, manager, isPopulate, type }) => {
+const Tables = ({ tableTitle, data, manager, isPopulate, type, hub }) => {
 
-    const filteredData = manager ? data.filter((row) => row.WM_ID === manager.value) : data;
+    const filteredDataByHub = hub ? data.filter((row) => row.Hub_ID === hub.value) : data;
+    const filteredData = manager ? filteredDataByHub.filter((row) => row.WM_ID === manager.value) : filteredDataByHub;
+
+    console.log(filteredData);
 
     return (
         <div className='rounded-lg p-4 flex flex-col gap-4 bottom-cell shadow card-light'>
@@ -27,21 +29,32 @@ const Tables = ({ tableTitle, data, manager, isPopulate, type }) => {
                     </colgroup>
                     <TableHead type={type} />
                     <tbody>
-                        {isPopulate && filteredData.map((row, index) => (
-                            <TableRow
-                                key={`${row.Tracking_ID || index}-${index}`}
-                                TID={row.Tracking_ID}
-                                CPD={row.CPD}
-                                priority={row.Priority}
-                                amount={row.Amount}
-                                address={row.Address}
-                                pin={row.Pincode}
-                                status={row.Status}
-                                item={row.Item_Type}
-                                index={index}
-                                type={type}
-                            />
-                        ))}
+                        {isPopulate && filteredData.length > 0 ? (
+                            filteredData.map((row, index) => (
+                                <TableRow
+                                    key={`${row.Tracking_ID || index}-${index}`}
+                                    TID={row.Tracking_ID}
+                                    CPD={row.CPD}
+                                    priority={row.Priority}
+                                    amount={row.Amount}
+                                    address={row.Address}
+                                    pin={row.Pincode}
+                                    status={row.Status}
+                                    item={row.Item_Type}
+                                    index={index}
+                                    type={type}
+                                />
+                            ))
+                        ) : (
+                            <tr>
+                                <td 
+                                    colSpan={type === "DELI" ? 7 : 6} 
+                                    className="text-center p-8 text-gray-500 font-medium"
+                                >
+                                    {!isPopulate ? "Click 'Populate' to view entries" : "No entries found"}
+                                </td>
+                            </tr>
+                        )}
                     </tbody>
                 </table>
             </div>
