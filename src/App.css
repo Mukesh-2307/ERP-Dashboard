@@ -5,7 +5,7 @@
 }
 
 .bottom-cell {
-  height: calc(100vh - 220px - 64px - 80px);
+  height: calc(100vh - 150px - 80px - 40px - 80px);
 }
 
 .card-dark,
