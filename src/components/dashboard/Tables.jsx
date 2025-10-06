@@ -1,15 +1,15 @@
 import React from 'react';
 
 
-const Tables = ({ tableTitle, data, manager, isPopulate, type, hub }) => {
+const Tables = ({ tableTitle, data, manager, isPopulate, type, hub, caller }) => {
 
     const filteredDataByHub = hub ? data.filter((row) => row.Hub_ID === hub.value) : data;
     const filteredData = manager ? filteredDataByHub.filter((row) => row.WM_ID === manager.value) : filteredDataByHub;
 
-    console.log(filteredData);
+    // console.log(filteredData);
 
     return (
-        <div className='rounded-lg p-4 flex flex-col gap-4 bottom-cell shadow card-light'>
+        <div className={`rounded-lg p-4 flex flex-col gap-4 ${caller === "mainDashboard" ? "bottom-cell" : "bottom-cell-l"} shadow card-light`}>
 
             <div className="header">
                 <h1 className='card-text-m'>
