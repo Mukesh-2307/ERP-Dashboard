@@ -6,20 +6,34 @@ import Select from 'react-select';
 import Papa from "papaparse";
 
 const WMoptions = [
-  { value: 1, label: 'Sushil Kumar Jha' },
-  { value: 2, label: 'Amit Kumar' },
+  { value: 1, label: 'Amarjit Kumar'},
+  { value: 2, label: 'Sumit Mandal R'},
+  { value: 3, label: 'Suraj Kumar'},
+  { value: 4, label: 'Ankit Das'},
+  { value: 5, label: 'Swastik Sathpathy'},
+  { value: 6, label: 'Manas Kumar'},
+  { value: 7, label: 'Rajesh Kumar'},
+  { value: 8, label: 'Vickey Kumar'},
+  { value: 9, label: 'Nitu Kumari'},
+  { value: 10, label: 'Govinda Kumar'},
+  { value: 11, label: 'vishal Kumar'},
+];
+
+const Huboptions = [
+  { value: 'HJR', label: 'CABT Hajipur' },
+  { value: 'PAT', label: 'Patliputra Hub' },
 ];
 
 function App() {
 
   const [manager, setManager] = useState(null);
+  const [hub, setHub] = useState(null);
   const [deliveryData, setDeliveryData] = useState([]);
   const [pickupData, setPickupData] = useState([]);
   const [isPopulate, setIsPopulate] = useState(false);
 
   useEffect(() => {
-    setIsPopulate(false);
-    Papa.parse("/Pickup.csv", {
+    Papa.parse("/Pickup_All_Hubs.csv", {
       download: true,
       header: true,
       skipEmptyLines: true,
@@ -32,7 +46,7 @@ function App() {
         setPickupData([]);
       },
     })
-    Papa.parse("/OFD.csv", {
+    Papa.parse("/OFD_All_Hubs.csv", {
       download: true,
       header: true,
       skipEmptyLines: true,
@@ -45,7 +59,7 @@ function App() {
         setDeliveryData([]);
       },
     })
-  }, [manager])
+  }, [])
 
   const handlePopulate = () => {
     if (manager) {
@@ -69,6 +83,17 @@ function App() {
               />
             </div>
           </div>
+          <div>
+            <label htmlFor='WM-Select' className='text-xs sm:text-sm font-bold p-1.5'>Hubs</label>
+            <div className='w-full sm:w-[220px]'>
+              <Select
+                defaultValue={hub}
+                onChange={setHub}
+                options={Huboptions}
+                name="WM-Select"
+              />
+            </div>
+          </div>
         </div>
         <button
           className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto'
@@ -78,8 +103,11 @@ function App() {
         </button>
       </div>
       <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
-        <Tables tableTitle="Delivery" data={deliveryData} manager={manager} isPopulate={isPopulate} />
-        <Tables tableTitle="Pickup" data={pickupData} manager={manager} isPopulate={isPopulate} />
+        <Tables tableTitle="Delivery" data={deliveryData} manager={manager} isPopulate={isPopulate} type="DELI" />
+        <Tables tableTitle="Pickup" data={pickupData} manager={manager} isPopulate={isPopulate} type="PICK" />
+      </div>
+      <div className="flex justify-end pr-4">
+        <button className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto'>Save</button>
       </div>
     </div>
   )
