@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.bottom-cell-l {
+  height: calc(100vh - 107px - 40px - 64px);
+}
+
 .bottom-cell {
   height: calc(100vh - 150px - 80px - 40px - 80px);
 }
