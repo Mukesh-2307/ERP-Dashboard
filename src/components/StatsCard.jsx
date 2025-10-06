@@ -12,9 +12,9 @@ const StatsCard = ({ total, totalDeliveries, totalPickups }) => {
 
 const Card = ({ title, value, className }) => {
     return (
-        <div className={`rounded-lg p-4 shadow flex flex-col justify-between ${className}`}>
+        <div className={`rounded-lg shadow text-center flex flex-col justify-center ${className}`}>
+            <h1 className='card-text-l'>{value}</h1>
             <p className='font-semibold'>{title}</p>
-            <h1 className='card-text-l py-5'>{value}</h1>
         </div>
     )
 }
