@@ -1,8 +1,9 @@
-import React, { useState, useEffect }  from 'react'
+import React, { useState, useEffect } from 'react'
 import StatCards from '../components/dashboard/StatCards'
 import Tables from '../components/dashboard/Tables'
 import Select from 'react-select';
 import Papa from "papaparse";
+import { useNavigate } from 'react-router-dom';
 
 const WMoptions = [
     { value: 1, label: 'Amarjit Kumar' },
@@ -24,6 +25,8 @@ const Huboptions = [
 ];
 
 const MainDashboard = () => {
+
+    const navigate = useNavigate();
 
     const [manager, setManager] = useState(null);
     const [hub, setHub] = useState(null);
@@ -92,8 +95,18 @@ const MainDashboard = () => {
     const handlePopulate = () => {
         if (manager && hub) {
             setIsPopulate(true);
+            localStorage.setItem("manager", JSON.stringify(manager));
+            localStorage.setItem("hub", JSON.stringify(hub));
+            localStorage.setItem("deliveryData", JSON.stringify(deliveryData));
+            localStorage.setItem("pickupData", JSON.stringify(pickupData));
         }
     };
+
+    const handleMoveToRSPS = () => {
+        if (manager && hub) {
+            navigate('/WM-Dashboard')
+        }
+    }
 
     return (
         <div className='grid gap-4 p-2 sm:p-4 grid-rows-[auto_1fr]'>
@@ -101,23 +114,23 @@ const MainDashboard = () => {
             <div className="input-fields flex flex-col gap-3 sm:flex-row sm:justify-between sm:items-center min-h-20 px-3 sm:px-4 card-light rounded-lg">
                 <div className='flex gap-4 sm:gap-8 w-full sm:w-auto'>
                     <div>
-                        <label htmlFor='WM-Select' className='text-xs sm:text-sm font-bold p-1.5'>Assign Agent</label>
-                        <div className='w-full sm:w-[220px]'>
-                            <Select
-                                defaultValue={manager}
-                                onChange={setManager}
-                                options={WMoptions}
-                                name="WM-Select"
-                            />
-                        </div>
-                    </div>
-                    <div>
                         <label htmlFor='WM-Select' className='text-xs sm:text-sm font-bold p-1.5'>Hubs</label>
                         <div className='w-full sm:w-[220px]'>
                             <Select
                                 defaultValue={hub}
                                 onChange={setHub}
                                 options={Huboptions}
+                                name="WM-Select"
+                            />
+                        </div>
+                    </div>
+                    <div>
+                        <label htmlFor='WM-Select' className='text-xs sm:text-sm font-bold p-1.5'>Assign Agent</label>
+                        <div className='w-full sm:w-[220px]'>
+                            <Select
+                                defaultValue={manager}
+                                onChange={setManager}
+                                options={WMoptions}
                                 name="WM-Select"
                             />
                         </div>
@@ -131,11 +144,11 @@ const MainDashboard = () => {
                 </button>
             </div>
             <div className="grid gap-4 grid-cols-1 md:grid-cols-2">
-                <Tables tableTitle="Delivery" data={deliveryData} manager={manager} hub={hub} isPopulate={isPopulate} type="DELI" />
-                <Tables tableTitle="Pickup" data={pickupData} manager={manager} hub={hub} isPopulate={isPopulate} type="PICK" />
+                <Tables tableTitle="Delivery" data={deliveryData} manager={manager} hub={hub} isPopulate={isPopulate} type="DELI" caller="mainDashboard" />
+                <Tables tableTitle="Pickup" data={pickupData} manager={manager} hub={hub} isPopulate={isPopulate} type="PICK" caller="mainDashboard" />
             </div>
             <div className="flex justify-end pr-4">
-                <button className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto'>Move to RS/PS</button>
+                <button className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto' onClick={handleMoveToRSPS}>Move to RS/PS</button>
             </div>
         </div>
     )
