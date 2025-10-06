@@ -7,7 +7,7 @@ const StatCards = ({ deliveryData, pickupData, manager }) => {
     const total = totalDeliveries.length + totalPickups.length;
 
     return (
-        <div className='rounded-lg h-[220px] grid gap-4 grid-cols-3'>
+        <div className='rounded-lg h-[150px] grid gap-4 grid-cols-3'>
             <StatsCard total={total || 0} totalDeliveries={totalDeliveries.length || 0} totalPickups={totalPickups.length || 0} />
         </div>
     )
