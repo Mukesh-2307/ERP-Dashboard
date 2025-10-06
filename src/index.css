@@ -23,7 +23,7 @@ body {
 }
 
 .card-text-l {
-  font-size: clamp(28px, 6vw, 104px);
+  font-size: clamp(28px, 6vw, 76px);
   line-height: 1.15;
   font-weight: var(--large-weight);
 }
