@@ -30,8 +30,8 @@ const WishMaster = () => {
                 </div>
             </div>
             <div className='grid gap-4 grid-cols-1 md:grid-cols-2'>
-                <Tables tableTitle="Delivery" data={deliveryData} manager={wmName} hub={hubName} isPopulate={true} type="DELI" />
-                <Tables tableTitle="Pickup" data={pickupData} manager={wmName} hub={hubName} isPopulate={true} type="PICK" />
+                <Tables tableTitle="Delivery" data={deliveryData} manager={wmName} hub={hubName} isPopulate={true} type="DELI" caller="WMDashboard"/>
+                <Tables tableTitle="Pickup" data={pickupData} manager={wmName} hub={hubName} isPopulate={true} type="PICK" caller="WMDashboard"/>
             </div>
             <div className="flex justify-end gap-4 pr-4">
                 <button className='btn py-2 px-4 rounded-lg font-semibold cursor-pointer w-full sm:w-auto'>Save</button>
