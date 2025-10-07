@@ -6,17 +6,17 @@ import Papa from "papaparse";
 import { useNavigate } from 'react-router-dom';
 
 const WMoptions = [
-    { value: 1, label: 'Amarjit Kumar' },
-    { value: 2, label: 'Sumit Mandal R' },
-    { value: 3, label: 'Suraj Kumar' },
-    { value: 4, label: 'Ankit Das' },
-    { value: 5, label: 'Swastik Sathpathy' },
-    { value: 6, label: 'Manas Kumar' },
-    { value: 7, label: 'Rajesh Kumar' },
-    { value: 8, label: 'Vickey Kumar' },
-    { value: 9, label: 'Nitu Kumari' },
-    { value: 10, label: 'Govinda Kumar' },
-    { value: 11, label: 'vishal Kumar' },
+    { value: 1, label: 'Amarjit Kumar', hub: 'HJR' },
+    { value: 2, label: 'Sumit Mandal R', hub: 'HJR' },
+    { value: 3, label: 'Suraj Kumar', hub: 'HJR' },
+    { value: 4, label: 'Ankit Das', hub: 'HJR' },
+    { value: 5, label: 'Swastik Sathpathy', hub: 'HJR' },
+    { value: 6, label: 'Manas Kumar', hub: 'HJR' },
+    { value: 7, label: 'Rajesh Kumar', hub: 'PAT' },
+    { value: 8, label: 'Vickey Kumar', hub: 'PAT' },
+    { value: 9, label: 'Nitu Kumari', hub: 'PAT' },
+    { value: 10, label: 'Govinda Kumar', hub: 'PAT' },
+    { value: 11, label: 'vishal Kumar', hub: 'PAT' },
 ];
 
 const Huboptions = [
@@ -39,6 +39,12 @@ const MainDashboard = () => {
     const [totalDeliveries, setTotalDeliveries] = useState(0);
     const [totalPickups, setTotalPickups] = useState(0);
     const [total, setTotal] = useState(0);
+
+    const [finalWMOptions, setFinalWMOptions] = useState([]);
+
+    useEffect(() => {
+        setFinalWMOptions(WMoptions.filter((wm) => wm.hub === hub?.value));
+    }, [hub])
 
     useEffect(() => {
         Papa.parse("/Pickup_All_Hubs.csv", {
@@ -130,7 +136,7 @@ const MainDashboard = () => {
                             <Select
                                 defaultValue={manager}
                                 onChange={setManager}
-                                options={WMoptions}
+                                options={finalWMOptions}
                                 name="WM-Select"
                             />
                         </div>
