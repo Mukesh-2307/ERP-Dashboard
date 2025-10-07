@@ -25,7 +25,7 @@ const WishMaster = () => {
                     <FaChevronLeft size={24} onClick={handleBackBtn} className='cursor-pointer' />
                 </div>
                 <div>
-                    <h1 className='font-bold p-1.5 '><span className='secondary-text'>Warehouse Manager's Name:</span> {wmName.label}</h1>
+                    <h1 className='font-bold p-1.5 '><span className='secondary-text'>WM's Name:</span> {wmName.label}</h1>
                     <h1 className='font-bold p-1.5 '><span className='secondary-text'>Hub Name:</span> {hubName.label}</h1>
                 </div>
             </div>
